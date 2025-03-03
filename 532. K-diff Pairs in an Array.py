@@ -1,3 +1,5 @@
+#time: O(n)
+#space: O(n)
 class Solution:
     def findPairs(self, nums: List[int], k: int) -> int:
         hmap= dict()
